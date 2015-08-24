@@ -61,3 +61,4 @@ export PATH=$PATH:/usr/local/storm/bin
 mvn -q clean install -pl storm -am
 storm jar /home/osboxes/Documents/stormdemo/BigDataTraining-storm-twitter/classes/artifacts/BigDataTraining_storm_twitter_jar/BigDataTraining-storm-twitter.jar dashboard.storm.Harness
 
+### Check the topology status in Storm UI through browser : localhost:8080/index.html
