@@ -1,2 +1,0 @@
-# stormtraining
-Storm Training Materials
