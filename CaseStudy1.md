@@ -74,6 +74,10 @@ https://github.com/arvindrkrishnen/stormtraining/blob/master/storm.properties.ca
 ###Download the below file and update in the location - common/src/main/resources/kafka.properties
 https://github.com/arvindrkrishnen/stormtraining/blob/master/kafka.properties.caseStudy1
 
+###Download the below file and update in location /usr/local/storm/conf/storm.yaml
+https://github.com/arvindrkrishnen/stormtraining/blob/master/storm.yaml 
+
+
 ### Create JAR file in IntelliJ by clicking on Modules -> Create JAR -> specify location as given below (default available in the instance)
 ### Manually delete .SF and .RSA files from Manifest folder within JAR file before run the topology
 
