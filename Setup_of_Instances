@@ -1,0 +1,8 @@
+Setting up the Twitter-Storm-NodeJS setup
+
+#Install NPM, NodeJS, Ruby and Compass
+sudo apt-get install npm
+sudo apt-get install nodejs
+sudo apt-get install ruby ruby-dev libpng-devel
+gem install compass
+
