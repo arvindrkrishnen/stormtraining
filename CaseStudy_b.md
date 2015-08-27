@@ -59,6 +59,8 @@ cd /opt/kafka/latest
 
 sudo chown -R osboxes:osboxes .
 
+/opt/kafka/latest/bin/kafka-run-class.sh kafka.admin.DeleteTopicCommand --zookeeper localhost:2181 --topic tweets
+
 /opt/kafka/latest/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic tweets
 
 ### Build and Deploy Storm Topology, but Ensure  STORM is in path
